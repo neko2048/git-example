@@ -68,6 +68,5 @@ e_vs_b = pressure_vapor(temp_b)
 print("e_vs_b:", e_vs_b/100, "hPa")
 q_vs_b = content_vapor(e_vs_b, temp_b, 750)
 print("q_vs_b:", q_vs_b, "kg / kg")
-
-lv_ratio = q_vs_b / q_v_a
-print("lv_ratio:", lv_ratio)
+l_ratio = q_v_a - q_vs_b
+print("l_ratio:", l_ratio, "kg / kg")
