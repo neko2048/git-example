@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib
 from matplotlib.pyplot import * 
 import matplotlib.cm as cm
-from model_task5_formula import *
+#from model_task5_formula import *
 
 maxt = 900
 ## base state vector 
